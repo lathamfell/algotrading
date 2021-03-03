@@ -3,7 +3,7 @@ import pandas
 import sys
 
 
-class BuyAndHodler:
+class Hodler:
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yaml"))
@@ -59,4 +59,4 @@ class BuyAndHodler:
 
 
 if __name__ == '__main__':
-    BuyAndHodler().run()
+    Hodler().run()
