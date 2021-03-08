@@ -1,8 +1,10 @@
 starting_cash: 10000
-data_file_path: "data/TQQQ_from_1999.csv"
+#data_file_path: "data/TQQQ.csv"
+test_data_file_path: "data/UPRO.csv"
+control_data_file_path: "data/SP500.csv"
 output_dir: "output"
 #start_date: "2020-01-02"
 #start_date: "2018-01-02"
-start_date: "2010-02-11" # start of real data
-
+#start_date: "2010-02-11" # start of real data
+start_date: "2006-01-03"
 #end_date: "2010-02-10"
